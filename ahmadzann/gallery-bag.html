@@ -1,0 +1,206 @@
+<html><head><title>gallery beg</title></head>
+    
+    
+    
+    <style>
+     
+        #logo-click {
+            top: 400px;
+            left: 50%;
+            position: absolute;
+            width: 50px;
+            height: 30px;
+            border-radius: 20px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        
+        #limg1 {
+            border-radius: 20px;
+            top:500px;
+            width: 250px;
+            height: 225px;
+            position: absolute;
+        }
+        #srh {
+            
+            width: 30px;
+            height: 30px;
+            top: 110px;
+            left: 110px;
+            position: absolute;
+            text-align: center;
+            background-color: gray;
+            
+        }
+        #bord {
+            
+            border-radius: 20px;
+            opacity: .1;
+            top:500px;
+            width: 250px;
+            height: 225px;
+            position: absolute;
+            background: #f7f731;
+        }
+        
+        #limg2 {
+            border-radius: 20px;
+            top:500px;
+            left: 275px;
+            width: 250px;
+            height: 225px;
+            position: absolute;
+        }
+        #srh1 {
+            
+            width: 30px;
+            height: 30px;
+            top: 110px;
+            left: 110px;
+            position: absolute;
+            text-align: center;
+            background-color: gray;
+            
+        }
+        #bord1 {
+            border-radius: 20px;
+            opacity: 0;
+            top:500px;
+            left: 275px;
+            width: 250px;
+            height: 225px;
+            position: absolute;
+            background: black;
+        }
+        #limg3 {
+            border-radius: 20px;
+            top:500px;
+            left: 550px;
+            width: 250px;
+            height: 225px;
+            position: absolute;
+        }
+        #srh3 {
+            
+            width: 30px;
+            height: 30px;
+            top: 110px;
+            left: 110px;
+            position: absolute;
+            text-align: center;
+            background-color: gray;
+            
+        }
+        #bord3 {
+            border-radius: 20px;
+            opacity: 0;
+            top:500px;
+            left: 550px;
+            width: 250px;
+            height: 225px;
+            position: absolute;
+            background: #f71616;
+        }
+        #limg4 {
+            border-radius: 20px;
+            top:750px;
+            width: 250px;
+            height: 225px;
+            position: absolute;
+        }
+        #srh4 {
+            
+            width: 30px;
+            height: 30px;
+            top: 110px;
+            left: 110px;
+            position: absolute;
+            text-align: center;
+            background-color: gray;
+            
+        }
+        #bord4 {
+            border-radius: 20px;
+            opacity: 0;
+            top:750px;
+            width: 250px;
+            height: 225px;
+            position: absolute;
+            background: rgba(230, 115, 0, 0.94) ;
+        }
+        
+        
+        
+        
+    </style>
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#bord").mouseenter(function(){
+                $("#bord").animate({opacity:'.5'});
+            });
+            $("#bord").mouseleave(function(){
+                $("#bord").animate({opacity:'0'});
+            });
+        });
+        $(document).ready(function(){
+            $("#bord1").mouseenter(function(){
+                $("#bord1").animate({opacity:'.5'});
+            });
+            $("#bord1").mouseleave(function(){
+                $("#bord1").animate({opacity:'0'});
+            });
+        }); 
+        
+        $(document).ready(function(){
+            $("#bord3").mouseenter(function(){
+                $("#bord3").animate({opacity:'.5'});
+            });
+            $("#bord3").mouseleave(function(){
+                $("#bord3").animate({opacity:'0'});
+            });
+        }); 
+        $(document).ready(function(){
+            $("#bord4").mouseenter(function(){
+                $("#bord4").animate({opacity:'.5'});
+            });
+            $("#bord4").mouseleave(function(){
+                $("#bord4").animate({opacity:'0'});
+            });
+        }); 
+        
+        $("#logo-click").toggle(function(){
+            
+        });
+        
+        
+        
+        
+        
+        
+        
+    </script>
+    
+    
+    
+    
+    <body>
+        
+        <img id="limg1" src="logo/acba1195-fe5a-4a21-b549-1632e1ef13d2.jpg"/>
+        <a id="bord"><img id="srh" src="search.jpg"  /></a>
+        <img id="limg2" src="logo/cb991ad7-3365-4f5d-adda-6da565f57ad2.jpg"/>
+        <a id="bord1"><img id="srh1" src="search.jpg"  /></a>
+        <img id="limg3" src="logo/WhatsApp%20Image%202020-01-08%20at%206.13.34%20PM%20(1).jpeg"/>
+        <a id="bord3"><img id="srh3" src="search.jpg"  /></a><br>
+        <img id="limg4" src="logo/WhatsApp%20Image%202020-01-08%20at%206.13.34%20PM.jpeg"/>
+        <a id="bord4"><img id="srh4" src="search.jpg"  /></a>
+    
+        
+        <input type="button" id="logo-click" value="logo" />
+    </body>
+    
+</html>

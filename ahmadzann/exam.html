@@ -1,0 +1,81 @@
+<html>
+    <head><title>my exam</title></head>
+    
+    
+    <style>
+        #ok {
+            display: none;
+            
+        }
+        #nam {
+            display: none;
+        }
+        #num {
+            display: none;
+        }
+        #now {
+            display: none;
+        }
+        
+    </style>
+    
+    <body>
+        <h3>creat a new account</h3>
+        <div id="hqr"></div>
+        <div id="hqw"></div>
+        <button onclick="sh(nam); sh(num) ;sh(n) ;sh(m); sh(now); sh(ok)"; >creat a new acount</button><br>
+        <input type="text" id="nam" placeholder="Name"/>
+        <input type="string" id="num" placeholder="phon.NO"/>
+        <button id="ok" onclick="crt(nam); number(num); sav(nam); sw(num)"; >ok</button>
+        <button id="now" onclick="niv(nam); niv(num) ;niv(n) ;niv(m); niv(now); niv(ok);sav(nam);sw(num) "; >creat now</button>
+        <h1 id="n"></h1>
+        <h1 id="m"></h1>
+        <h3>show info</h3>
+        <input type="text" id="show" placeholder="srech"/>
+        <button id="s" onclick="ser(show)";>serch</button>
+        <h1 id="g"></h1>
+        
+        
+        
+        <script>
+            function ser(a) {
+                var x=1;
+                var f
+                for (x=1;x>a.linght;x++){
+                    if(a==hqr[x]){
+                 g=hqr[x];
+               print.g
+                }
+                    
+                }
+            }
+            
+            
+            function sav(a) {
+                var x=1;
+                a.value =hqr[x++];
+            }
+               function sw(a) {
+                var i=1;
+                a.value =hqw[i++];
+            }
+            
+            function crt(a) {
+            
+            window.n.innerHTML =a.value;
+            
+            }
+            function number(a) {
+            window.m.innerHTML =a.value;
+            }
+            function niv(a){
+                a.style.display ="none";
+            }
+            function sh(a) {
+                a.style.display="block";
+            }
+        </script>
+    
+    
+    </body>
+</html>
